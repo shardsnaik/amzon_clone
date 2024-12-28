@@ -274,3 +274,82 @@ li a:hover {
     margin-top: 5px;
     font-size: 0.8rem;
 }
+
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .nav-logo, .nav-address, .nav-search, .nav-language, .nav-signin, .nav-returns, .nav-cart {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        display: flex;
+      position: absolute;
+    }
+
+    .search-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .bottom-panel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel-options, .panel-deals {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hero-section {
+        height: 30vh;
+        padding: 20px;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .foot-panel2 ul {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .foot-panel3, .foot-panel4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-section{
+        height: 40vh;
+
+    }
+    .hero-msg{
+        display: none;}
+
+    .bottom-panel{
+        position: absolute;
+        top: 31vh;
+    }
+
+
+
+
+}
